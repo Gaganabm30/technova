@@ -1,0 +1,8 @@
+{
+  "name": "AI-Powered Employee Workflow & Productivity Management System",
+  "description": "Enterprise SaaS platform for employee workflows, task tracking, workload balance, team productivity metrics, and AI-driven workflow intelligence.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

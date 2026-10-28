@@ -1,0 +1,2536 @@
+{
+  "users": [
+    {
+      "_id": "usr_ananya",
+      "name": "Ananya Sharma",
+      "email": "ananya.sharma@technova.io",
+      "passwordHash": "$2b$10$GX8p3A3THyhn7F7BdYU9ceoizY4FndyUlPl2Bk1jFC1gzlNyzQEja",
+      "role": "admin",
+      "department": "Engineering",
+      "jobTitle": "VP of Engineering & Systems",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "status": "active",
+      "bio": "Leading distributed engineering teams and architecture strategy across enterprise platforms.",
+      "phone": "+91 98201 44521",
+      "skills": [
+        "Distributed Systems",
+        "System Architecture",
+        "Agile Leadership",
+        "Kubernetes"
+      ],
+      "productivityScore": 94,
+      "scoreBreakdown": {
+        "completionRate": 96,
+        "deadlineAdherence": 92,
+        "workloadBalance": 90,
+        "consistency": 98
+      },
+      "createdAt": "2026-01-10T09:00:00.000Z",
+      "updatedAt": "2026-10-28T15:49:15.046Z",
+      "organizationId": "org_demo",
+      "onboardingCompleted": true
+    },
+    {
+      "_id": "usr_rahul",
+      "name": "Rahul Kumar",
+      "email": "rahul.kumar@technova.io",
+      "passwordHash": "$2b$10$GX8p3A3THyhn7F7BdYU9ceoizY4FndyUlPl2Bk1jFC1gzlNyzQEja",
+      "role": "employee",
+      "department": "Engineering",
+      "jobTitle": "Senior Full-Stack Engineer",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "status": "busy",
+      "bio": "Specialized in microservices, React performance, and high-throughput transaction pipelines.",
+      "phone": "+91 98334 11029",
+      "skills": [
+        "TypeScript",
+        "Node.js",
+        "React",
+        "MongoDB",
+        "PostgreSQL",
+        "GraphQL"
+      ],
+      "productivityScore": 82,
+      "scoreBreakdown": {
+        "completionRate": 85,
+        "deadlineAdherence": 74,
+        "workloadBalance": 68,
+        "consistency": 89
+      },
+      "createdAt": "2026-01-15T09:00:00.000Z",
+      "updatedAt": "2026-10-27T16:31:09.661Z",
+      "organizationId": "org_demo"
+    },
+    {
+      "_id": "usr_priya",
+      "name": "Priya Nair",
+      "email": "priya.nair@technova.io",
+      "passwordHash": "$2b$10$GX8p3A3THyhn7F7BdYU9ceoizY4FndyUlPl2Bk1jFC1gzlNyzQEja",
+      "role": "team_lead",
+      "department": "Design",
+      "jobTitle": "Product Design Lead",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "status": "active",
+      "bio": "Design systems advocate, user research enthusiast, shaping enterprise UI/UX consistency.",
+      "phone": "+91 98450 78219",
+      "skills": [
+        "Design Systems",
+        "Figma",
+        "User Research",
+        "Information Architecture",
+        "Prototyping"
+      ],
+      "productivityScore": 91,
+      "scoreBreakdown": {
+        "completionRate": 94,
+        "deadlineAdherence": 90,
+        "workloadBalance": 88,
+        "consistency": 92
+      },
+      "createdAt": "2026-01-20T09:00:00.000Z",
+      "updatedAt": "2026-10-07T08:40:52.460Z",
+      "organizationId": "org_demo"
+    },
+    {
+      "_id": "usr_arjun",
+      "name": "Arjun Mehta",
+      "email": "arjun.mehta@technova.io",
+      "passwordHash": "$2b$10$GX8p3A3THyhn7F7BdYU9ceoizY4FndyUlPl2Bk1jFC1gzlNyzQEja",
+      "role": "team_lead",
+      "department": "Engineering",
+      "jobTitle": "DevOps & Infrastructure Lead",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+      "status": "active",
+      "bio": "Cloud architecture, CI/CD automation, observability pipelines, and infrastructure resilience.",
+      "phone": "+91 97112 34900",
+      "skills": [
+        "AWS",
+        "GCP",
+        "Terraform",
+        "Docker",
+        "Prometheus",
+        "Security"
+      ],
+      "productivityScore": 89,
+      "scoreBreakdown": {
+        "completionRate": 90,
+        "deadlineAdherence": 88,
+        "workloadBalance": 84,
+        "consistency": 94
+      },
+      "createdAt": "2026-02-01T09:00:00.000Z",
+      "updatedAt": "2026-10-07T08:40:52.460Z",
+      "organizationId": "org_demo"
+    },
+    {
+      "_id": "usr_sneha",
+      "name": "Sneha Rao",
+      "email": "sneha.rao@technova.io",
+      "passwordHash": "$2b$10$GX8p3A3THyhn7F7BdYU9ceoizY4FndyUlPl2Bk1jFC1gzlNyzQEja",
+      "role": "team_lead",
+      "department": "Product",
+      "jobTitle": "Principal Product Manager",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop&q=80",
+      "status": "active",
+      "bio": "Roadmap planning, customer discovery, cross-functional orchestration for core enterprise SaaS.",
+      "phone": "+91 98199 44321",
+      "skills": [
+        "Product Strategy",
+        "Roadmapping",
+        "Metrics & Analytics",
+        "Stakeholder Alignment"
+      ],
+      "productivityScore": 95,
+      "scoreBreakdown": {
+        "completionRate": 98,
+        "deadlineAdherence": 95,
+        "workloadBalance": 92,
+        "consistency": 95
+      },
+      "createdAt": "2026-02-05T09:00:00.000Z",
+      "updatedAt": "2026-10-07T08:40:52.460Z",
+      "organizationId": "org_demo"
+    },
+    {
+      "_id": "usr_vikram",
+      "name": "Vikram Patel",
+      "email": "vikram.patel@technova.io",
+      "passwordHash": "$2b$10$GX8p3A3THyhn7F7BdYU9ceoizY4FndyUlPl2Bk1jFC1gzlNyzQEja",
+      "role": "employee",
+      "department": "Engineering",
+      "jobTitle": "Frontend Engineer",
+      "avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150&auto=format&fit=crop&q=80",
+      "status": "active",
+      "bio": "Passionate about accessible React interfaces, performance optimization, and animations.",
+      "phone": "+91 98670 12398",
+      "skills": [
+        "React",
+        "Next.js",
+        "Tailwind CSS",
+        "Web Vitals",
+        "Accessibility"
+      ],
+      "productivityScore": 86,
+      "scoreBreakdown": {
+        "completionRate": 88,
+        "deadlineAdherence": 84,
+        "workloadBalance": 82,
+        "consistency": 90
+      },
+      "createdAt": "2026-02-12T09:00:00.000Z",
+      "updatedAt": "2026-10-07T08:40:52.460Z",
+      "organizationId": "org_demo"
+    },
+    {
+      "_id": "usr_neha",
+      "name": "Neha Deshmukh",
+      "email": "neha.deshmukh@technova.io",
+      "passwordHash": "$2b$10$GX8p3A3THyhn7F7BdYU9ceoizY4FndyUlPl2Bk1jFC1gzlNyzQEja",
+      "role": "employee",
+      "department": "Engineering",
+      "jobTitle": "QA Automation & Security Specialist",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80",
+      "status": "active",
+      "bio": "Ensuring bulletproof enterprise software through automated integration and end-to-end tests.",
+      "phone": "+91 99203 88124",
+      "skills": [
+        "Cypress",
+        "Playwright",
+        "Penetration Testing",
+        "Jest",
+        "API Testing"
+      ],
+      "productivityScore": 88,
+      "scoreBreakdown": {
+        "completionRate": 91,
+        "deadlineAdherence": 86,
+        "workloadBalance": 85,
+        "consistency": 90
+      },
+      "createdAt": "2026-02-15T09:00:00.000Z",
+      "updatedAt": "2026-10-07T08:40:52.460Z",
+      "organizationId": "org_demo"
+    },
+    {
+      "organizationId": "org_muycu06k8vd6",
+      "name": "Test Admin",
+      "email": "testadmin@newco.io",
+      "passwordHash": "$2b$10$11ixe8FnypbdIGF1q/7yQuLc11vCBrzIWzd3/iv7eXwWCVSj62xiG",
+      "role": "admin",
+      "department": "Engineering",
+      "jobTitle": "Engineering Director",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "status": "active",
+      "bio": "Workspace Administrator at NewCo Inc",
+      "phone": "",
+      "skills": [
+        "Leadership",
+        "Workflow Architecture"
+      ],
+      "productivityScore": 0,
+      "scoreBreakdown": {
+        "completionRate": 0,
+        "deadlineAdherence": 0,
+        "workloadBalance": 100,
+        "consistency": 100
+      },
+      "onboardingCompleted": false,
+      "isDemo": false,
+      "_id": "usr_muycu089iwqi",
+      "createdAt": "2026-10-07T17:01:25.545Z",
+      "updatedAt": "2026-10-07T17:01:25.545Z"
+    },
+    {
+      "organizationId": "org_mvqp8povo8sc",
+      "name": "hjgjj",
+      "email": "gagugagana01@gmail.com",
+      "passwordHash": "$2b$10$OdwdqN0Et1OFscbGDBzoK.ayrqbFzm06YqdICgPu9a86J56.Phrvu",
+      "role": "admin",
+      "department": "Engineering",
+      "jobTitle": "hggjh",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "status": "active",
+      "bio": "Workspace Administrator at ghv",
+      "phone": "",
+      "skills": [
+        "Leadership",
+        "Workflow Architecture"
+      ],
+      "productivityScore": 0,
+      "scoreBreakdown": {
+        "completionRate": 0,
+        "deadlineAdherence": 0,
+        "workloadBalance": 100,
+        "consistency": 100
+      },
+      "onboardingCompleted": true,
+      "isDemo": false,
+      "_id": "usr_mvqp8pr29udo",
+      "createdAt": "2026-10-27T13:06:20.126Z",
+      "updatedAt": "2026-10-27T15:29:32.979Z"
+    },
+    {
+      "organizationId": "org_mvqv3wub8u1m",
+      "name": "hjgjj",
+      "email": "gaganagagu30@gmail.com",
+      "passwordHash": "$2b$10$xQkldi5W5LtIxXUqciHAGOEEzdX0wUQLVwSq5ubZGzFSDgtoAMrkW",
+      "role": "admin",
+      "department": "Engineering",
+      "jobTitle": "hggjh",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "status": "active",
+      "bio": "Workspace Administrator at ghv",
+      "phone": "",
+      "skills": [
+        "Leadership",
+        "Workflow Architecture"
+      ],
+      "productivityScore": 0,
+      "scoreBreakdown": {
+        "completionRate": 0,
+        "deadlineAdherence": 0,
+        "workloadBalance": 100,
+        "consistency": 100
+      },
+      "onboardingCompleted": true,
+      "isDemo": false,
+      "_id": "usr_mvqv3ww90jlx",
+      "createdAt": "2026-10-27T15:50:33.801Z",
+      "updatedAt": "2026-10-27T16:46:32.733Z"
+    },
+    {
+      "organizationId": "org_demo",
+      "name": "Test Engineer",
+      "email": "test-worker-1793118614462@example.com",
+      "passwordHash": "$2b$10$Qc4CbIIf5PKS1jAXf9mFVOVhgG.txsUihlvGTf8nVHahvMTNyGSk2",
+      "role": "employee",
+      "department": "Engineering",
+      "jobTitle": "QA Specialist",
+      "avatar": "https://images.unsplash.com/photo-1500250846992?w=150&auto=format&fit=crop&q=80",
+      "status": "active",
+      "bio": "Team member in Engineering",
+      "phone": "",
+      "skills": [
+        "Collaboration",
+        "Workflow Execution"
+      ],
+      "productivityScore": 0,
+      "scoreBreakdown": {
+        "completionRate": 0,
+        "deadlineAdherence": 0,
+        "workloadBalance": 100,
+        "consistency": 100
+      },
+      "onboardingCompleted": true,
+      "isDemo": false,
+      "_id": "usr_mvqwixvvy0lo",
+      "createdAt": "2026-10-27T16:30:14.539Z",
+      "updatedAt": "2026-10-27T16:30:14.539Z"
+    },
+    {
+      "organizationId": "org_mvqx5ff4jkig",
+      "name": "hjgjj",
+      "email": "vikasvkori129@gmail.com",
+      "passwordHash": "$2b$10$ZoPGcm8U2nvft8PLiNiOuu5YQ0gIauPmBoooR2WN.nSPk9KcsF5eK",
+      "role": "admin",
+      "department": "Engineering",
+      "jobTitle": "hggjh",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "status": "active",
+      "bio": "Workspace Administrator at ghv",
+      "phone": "",
+      "skills": [
+        "Leadership",
+        "Workflow Architecture"
+      ],
+      "productivityScore": 0,
+      "scoreBreakdown": {
+        "completionRate": 0,
+        "deadlineAdherence": 0,
+        "workloadBalance": 100,
+        "consistency": 100
+      },
+      "onboardingCompleted": true,
+      "isDemo": false,
+      "_id": "usr_mvqx5fhathnd",
+      "createdAt": "2026-10-27T16:47:43.774Z",
+      "updatedAt": "2026-10-27T16:48:22.904Z"
+    },
+    {
+      "organizationId": "org_mvqx5ff4jkig",
+      "name": "mnn",
+      "email": "kjj@gmail.com",
+      "passwordHash": "$2b$10$wcT.vIN/GtJY68QMfjWZ4uL5MQafQyEdo9AUp4ysaXPayV.Haudzm",
+      "role": "employee",
+      "department": "Engineering",
+      "jobTitle": "deede",
+      "avatar": "https://images.unsplash.com/photo-1500714637375?w=150&auto=format&fit=crop&q=80",
+      "status": "active",
+      "bio": "Team member in Engineering",
+      "phone": "",
+      "skills": [
+        "Collaboration",
+        "Workflow Execution"
+      ],
+      "productivityScore": 0,
+      "scoreBreakdown": {
+        "completionRate": 0,
+        "deadlineAdherence": 0,
+        "workloadBalance": 100,
+        "consistency": 100
+      },
+      "onboardingCompleted": true,
+      "isDemo": false,
+      "_id": "usr_mvsajqu39vjo",
+      "createdAt": "2026-10-28T15:50:32.859Z",
+      "updatedAt": "2026-10-28T15:50:32.859Z"
+    },
+    {
+      "organizationId": "org_mvsbs01fnngq",
+      "name": "fsdfw",
+      "email": "hhh@gmail.com",
+      "passwordHash": "$2b$10$4SRYKxVfi2iWTV7zzowwA.Ej9hHSjyetTh.iuIpkPjcIqj7oBuQqa",
+      "role": "admin",
+      "department": "Engineering",
+      "jobTitle": "Engineering Lead",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "status": "active",
+      "bio": "Workspace Administrator at dqeqw",
+      "phone": "",
+      "skills": [
+        "Leadership",
+        "Workflow Architecture"
+      ],
+      "productivityScore": 0,
+      "scoreBreakdown": {
+        "completionRate": 0,
+        "deadlineAdherence": 0,
+        "workloadBalance": 100,
+        "consistency": 100
+      },
+      "onboardingCompleted": true,
+      "isDemo": false,
+      "_id": "usr_mvsbs03g6un6",
+      "createdAt": "2026-10-28T16:24:57.724Z",
+      "updatedAt": "2026-10-28T16:41:02.876Z"
+    }
+  ],
+  "projects": [
+    {
+      "_id": "prj_analytics",
+      "name": "AI Analytics Platform",
+      "key": "AAP",
+      "description": "Next-gen enterprise telemetry, real-time workflow aggregation, and automated machine learning insights for executives.",
+      "status": "In Progress",
+      "health": "At Risk",
+      "leadId": "usr_arjun",
+      "department": "Engineering",
+      "memberIds": [
+        "usr_ananya",
+        "usr_rahul",
+        "usr_arjun",
+        "usr_vikram",
+        "usr_neha"
+      ],
+      "budgetHours": 420,
+      "startDate": "2026-09-09",
+      "deadline": "2026-10-21",
+      "milestones": [
+        {
+          "id": "m1",
+          "title": "Data Pipeline Ingestion Engine",
+          "dueDate": "2026-09-23",
+          "completed": true
+        },
+        {
+          "id": "m2",
+          "title": "Real-time WebSocket Aggregator",
+          "dueDate": "2026-10-05",
+          "completed": true
+        },
+        {
+          "id": "m3",
+          "title": "Gemini LLM Synthesis Service",
+          "dueDate": "2026-10-12",
+          "completed": false
+        },
+        {
+          "id": "m4",
+          "title": "Executive Analytics Viewports",
+          "dueDate": "2026-10-21",
+          "completed": false
+        }
+      ],
+      "createdAt": "2026-09-07T08:00:00.000Z",
+      "updatedAt": "2026-10-07T08:40:52.460Z",
+      "organizationId": "org_demo"
+    },
+    {
+      "_id": "prj_design_system",
+      "name": "Enterprise Design System v3.0",
+      "key": "EDS",
+      "description": "Unified component token architecture, WCAG 2.2 AA accessible patterns, and cross-platform Figma to React library.",
+      "status": "In Progress",
+      "health": "Healthy",
+      "leadId": "usr_priya",
+      "department": "Design",
+      "memberIds": [
+        "usr_priya",
+        "usr_vikram",
+        "usr_sneha"
+      ],
+      "budgetHours": 280,
+      "startDate": "2026-09-16",
+      "deadline": "2026-11-01",
+      "milestones": [
+        {
+          "id": "m21",
+          "title": "Typography and Color Token Scale",
+          "dueDate": "2026-09-27",
+          "completed": true
+        },
+        {
+          "id": "m22",
+          "title": "Core Form Controls & Validation States",
+          "dueDate": "2026-10-14",
+          "completed": false
+        },
+        {
+          "id": "m23",
+          "title": "Data Table & Virtualized Grid",
+          "dueDate": "2026-10-27",
+          "completed": false
+        }
+      ],
+      "createdAt": "2026-09-15T08:00:00.000Z",
+      "updatedAt": "2026-10-07T08:40:52.460Z",
+      "organizationId": "org_demo"
+    },
+    {
+      "_id": "prj_payment",
+      "name": "Global Payment Gateway v2",
+      "key": "GPG",
+      "description": "Multi-currency settlement orchestration, automated reconciliation, and PCI-DSS compliant checkout microservice.",
+      "status": "In Progress",
+      "health": "Delayed",
+      "leadId": "usr_rahul",
+      "department": "Engineering",
+      "memberIds": [
+        "usr_rahul",
+        "usr_arjun",
+        "usr_neha"
+      ],
+      "budgetHours": 350,
+      "startDate": "2026-09-02",
+      "deadline": "2026-10-10",
+      "milestones": [
+        {
+          "id": "m31",
+          "title": "Stripe & Razorpay Multi-routing",
+          "dueDate": "2026-09-25",
+          "completed": true
+        },
+        {
+          "id": "m32",
+          "title": "Webhook Resiliency & Idempotency",
+          "dueDate": "2026-10-03",
+          "completed": true
+        },
+        {
+          "id": "m33",
+          "title": "Automated Fraud & Refund Verification",
+          "dueDate": "2026-10-09",
+          "completed": false
+        }
+      ],
+      "createdAt": "2026-09-01T08:00:00.000Z",
+      "updatedAt": "2026-10-07T08:40:52.460Z",
+      "organizationId": "org_demo"
+    },
+    {
+      "_id": "prj_workforce",
+      "name": "Workforce Onboarding Portal",
+      "key": "WOP",
+      "description": "Self-service provisioning for new enterprise hires, automated laptop deployment tracking, and compliance training flows.",
+      "status": "Completed",
+      "health": "Healthy",
+      "leadId": "usr_sneha",
+      "department": "HR",
+      "memberIds": [
+        "usr_sneha",
+        "usr_vikram"
+      ],
+      "budgetHours": 180,
+      "startDate": "2026-08-23",
+      "deadline": "2026-10-02",
+      "milestones": [
+        {
+          "id": "m41",
+          "title": "Document Verification API",
+          "dueDate": "2026-09-12",
+          "completed": true
+        },
+        {
+          "id": "m42",
+          "title": "SSO Okta Provisioning Integration",
+          "dueDate": "2026-09-22",
+          "completed": true
+        },
+        {
+          "id": "m43",
+          "title": "Automated Welcome Checklist",
+          "dueDate": "2026-10-01",
+          "completed": true
+        }
+      ],
+      "createdAt": "2026-08-22T08:00:00.000Z",
+      "updatedAt": "2026-10-07T08:40:52.460Z",
+      "organizationId": "org_demo"
+    },
+    {
+      "_id": "prj_cloud",
+      "name": "Zero-Trust Cloud Mesh Migration",
+      "key": "ZTC",
+      "description": "Mutual TLS service mesh deployment across multi-cloud regions with automated key rotation and perimeter security.",
+      "status": "Planning",
+      "health": "Healthy",
+      "leadId": "usr_arjun",
+      "department": "Engineering",
+      "memberIds": [
+        "usr_arjun",
+        "usr_neha",
+        "usr_ananya"
+      ],
+      "budgetHours": 240,
+      "startDate": "2026-10-12",
+      "deadline": "2026-11-21",
+      "milestones": [
+        {
+          "id": "m51",
+          "title": "VPC Peering & Boundary Security Audit",
+          "dueDate": "2026-10-22",
+          "completed": false
+        },
+        {
+          "id": "m52",
+          "title": "Istio Service Mesh Cluster Pilot",
+          "dueDate": "2026-11-06",
+          "completed": false
+        }
+      ],
+      "createdAt": "2026-10-02T08:00:00.000Z",
+      "updatedAt": "2026-10-07T08:40:52.460Z",
+      "organizationId": "org_demo"
+    },
+    {
+      "organizationId": "org_mvqp8povo8sc",
+      "name": "AI Employee Productivity Platform",
+      "key": "AIEM",
+      "description": "Internal platform for managing employee workflows, workload distribution, and automated AI sprint insights.",
+      "status": "In Progress",
+      "health": "Healthy",
+      "leadId": "usr_mvqp8pr29udo",
+      "department": "Engineering",
+      "memberIds": [
+        "usr_mvqp8pr29udo"
+      ],
+      "budgetHours": 80,
+      "startDate": "2026-10-27",
+      "deadline": "2026-11-26",
+      "milestones": [
+        {
+          "id": "ms_1",
+          "title": "Project Kickoff & Requirements",
+          "dueDate": "2026-10-27",
+          "completed": true
+        },
+        {
+          "id": "ms_2",
+          "title": "Implementation Sprint Phase 1",
+          "dueDate": "2026-11-10",
+          "completed": false
+        },
+        {
+          "id": "ms_3",
+          "title": "Review, QA & Delivery",
+          "dueDate": "2026-11-26",
+          "completed": false
+        }
+      ],
+      "_id": "prj_mvquctfxj851",
+      "createdAt": "2026-10-27T15:29:29.613Z",
+      "updatedAt": "2026-10-27T15:29:29.613Z"
+    },
+    {
+      "organizationId": "org_demo",
+      "name": "Employee Workflow Test Project",
+      "key": "EMPL",
+      "description": "Testing project creation for employee role",
+      "status": "In Progress",
+      "health": "Healthy",
+      "leadId": "usr_mvqwixvvy0lo",
+      "department": "Engineering",
+      "memberIds": [
+        "usr_mvqwixvvy0lo"
+      ],
+      "budgetHours": 80,
+      "startDate": "2026-10-27",
+      "deadline": "2026-11-26",
+      "milestones": [
+        {
+          "id": "ms_1",
+          "title": "Project Kickoff & Requirements",
+          "dueDate": "2026-10-27",
+          "completed": true
+        },
+        {
+          "id": "ms_2",
+          "title": "Implementation Sprint Phase 1",
+          "dueDate": "2026-11-10",
+          "completed": false
+        },
+        {
+          "id": "ms_3",
+          "title": "Review, QA & Delivery",
+          "dueDate": "2026-11-26",
+          "completed": false
+        }
+      ],
+      "_id": "prj_mvqx27ufz5fj",
+      "createdAt": "2026-10-27T16:45:13.911Z",
+      "updatedAt": "2026-10-27T16:45:13.911Z"
+    },
+    {
+      "organizationId": "org_mvqv3wub8u1m",
+      "name": "AI Employee Productivity Platform",
+      "key": "AIEM",
+      "description": "Internal platform for managing employee workflows, workload distribution, and automated AI sprint insights.",
+      "status": "In Progress",
+      "health": "Healthy",
+      "leadId": "usr_mvqv3ww90jlx",
+      "department": "Engineering",
+      "memberIds": [
+        "usr_mvqv3ww90jlx"
+      ],
+      "budgetHours": 80,
+      "startDate": "2026-10-27",
+      "deadline": "2026-11-26",
+      "milestones": [
+        {
+          "id": "ms_1",
+          "title": "Project Kickoff & Requirements",
+          "dueDate": "2026-10-27",
+          "completed": true
+        },
+        {
+          "id": "ms_2",
+          "title": "Implementation Sprint Phase 1",
+          "dueDate": "2026-11-10",
+          "completed": false
+        },
+        {
+          "id": "ms_3",
+          "title": "Review, QA & Delivery",
+          "dueDate": "2026-11-26",
+          "completed": false
+        }
+      ],
+      "_id": "prj_mvqx3ri24e40",
+      "createdAt": "2026-10-27T16:46:26.042Z",
+      "updatedAt": "2026-10-27T16:46:26.042Z"
+    },
+    {
+      "organizationId": "org_mvqx5ff4jkig",
+      "name": "AI Employee Productivity Platform",
+      "key": "AIEM",
+      "description": "Internal platform for managing employee workflows, workload distribution, and automated AI sprint insights.",
+      "status": "In Progress",
+      "health": "Healthy",
+      "leadId": "usr_mvqx5fhathnd",
+      "department": "Engineering",
+      "memberIds": [
+        "usr_mvqx5fhathnd"
+      ],
+      "budgetHours": 80,
+      "startDate": "2026-10-27",
+      "deadline": "2026-11-26",
+      "milestones": [
+        {
+          "id": "ms_1",
+          "title": "Project Kickoff & Requirements",
+          "dueDate": "2026-10-27",
+          "completed": true
+        },
+        {
+          "id": "ms_2",
+          "title": "Implementation Sprint Phase 1",
+          "dueDate": "2026-11-10",
+          "completed": false
+        },
+        {
+          "id": "ms_3",
+          "title": "Review, QA & Delivery",
+          "dueDate": "2026-11-26",
+          "completed": false
+        }
+      ],
+      "_id": "prj_mvqx67lg97xe",
+      "createdAt": "2026-10-27T16:48:20.212Z",
+      "updatedAt": "2026-10-27T16:48:20.212Z"
+    },
+    {
+      "organizationId": "org_demo",
+      "name": "AI Analytics Platform",
+      "key": "AIAN",
+      "description": "Next-gen enterprise telemetry, real-time workflow aggregation, and automated machine learning insights for executives.",
+      "status": "In Progress",
+      "health": "Healthy",
+      "leadId": "usr_ananya",
+      "department": "Engineering",
+      "memberIds": [
+        "usr_ananya"
+      ],
+      "budgetHours": 80,
+      "startDate": "2026-10-28",
+      "deadline": "2026-11-27",
+      "milestones": [
+        {
+          "id": "ms_1",
+          "title": "Project Kickoff & Requirements",
+          "dueDate": "2026-10-28",
+          "completed": true
+        },
+        {
+          "id": "ms_2",
+          "title": "Implementation Sprint Phase 1",
+          "dueDate": "2026-11-11",
+          "completed": false
+        },
+        {
+          "id": "ms_3",
+          "title": "Review, QA & Delivery",
+          "dueDate": "2026-11-27",
+          "completed": false
+        }
+      ],
+      "_id": "prj_mvsah6qlq7rl",
+      "createdAt": "2026-10-28T15:48:33.502Z",
+      "updatedAt": "2026-10-28T15:48:33.502Z"
+    },
+    {
+      "organizationId": "org_mvqx5ff4jkig",
+      "name": "mbbmn",
+      "key": "MJK,",
+      "description": "nmn",
+      "status": "In Progress",
+      "health": "Healthy",
+      "leadId": "usr_mvqx5fhathnd",
+      "department": "Engineering",
+      "memberIds": [
+        "usr_mvqx5fhathnd"
+      ],
+      "budgetHours": 250,
+      "startDate": "2026-10-28",
+      "deadline": "2026-11-27",
+      "milestones": [
+        {
+          "id": "ms_1",
+          "title": "Project Kickoff & Requirements",
+          "dueDate": "2026-10-28",
+          "completed": true
+        },
+        {
+          "id": "ms_2",
+          "title": "Implementation Sprint Phase 1",
+          "dueDate": "2026-11-11",
+          "completed": false
+        },
+        {
+          "id": "ms_3",
+          "title": "Review, QA & Delivery",
+          "dueDate": "2026-11-27",
+          "completed": false
+        }
+      ],
+      "_id": "prj_mvsaj5eoaxv2",
+      "createdAt": "2026-10-28T15:50:05.088Z",
+      "updatedAt": "2026-10-28T15:50:05.088Z"
+    }
+  ],
+  "tasks": [
+    {
+      "organizationId": "org_mvqv3wub8u1m",
+      "title": "szx",
+      "description": "SXSx",
+      "projectId": "prj_mvqx3ri24e40",
+      "assignedTo": "usr_mvqv3ww90jlx",
+      "ownerId": "usr_mvqv3ww90jlx",
+      "createdBy": "usr_mvqv3ww90jlx",
+      "startDate": "2026-10-28",
+      "status": "TODO",
+      "priority": "MEDIUM",
+      "dueDate": "2026-11-04",
+      "estimatedHours": 8,
+      "actualHours": 0,
+      "tags": [],
+      "dependencies": [],
+      "blockedBy": [],
+      "deadlineRisk": "LOW",
+      "_id": "tsk_mvschlzjgjmg",
+      "attachments": [],
+      "comments": [],
+      "activity": [
+        {
+          "id": "act_mvschlzj",
+          "text": "Created task \"szx\"",
+          "timestamp": "2026-10-28T16:44:52.495Z",
+          "userId": "usr_mvqv3ww90jlx",
+          "userName": "hjgjj"
+        }
+      ],
+      "createdAt": "2026-10-28T16:44:52.495Z",
+      "updatedAt": "2026-10-28T16:44:52.495Z"
+    },
+    {
+      "organizationId": "org_mvqv3wub8u1m",
+      "title": "zax",
+      "description": "Axa",
+      "projectId": "prj_mvqx3ri24e40",
+      "assignedTo": "usr_mvqv3ww90jlx",
+      "ownerId": "usr_mvqv3ww90jlx",
+      "createdBy": "usr_mvqv3ww90jlx",
+      "startDate": "2026-10-28",
+      "status": "TODO",
+      "priority": "MEDIUM",
+      "dueDate": "2026-11-04",
+      "estimatedHours": 8,
+      "actualHours": 0,
+      "tags": [
+        "xax"
+      ],
+      "dependencies": [],
+      "blockedBy": [],
+      "deadlineRisk": "LOW",
+      "_id": "tsk_mvschcc39321",
+      "attachments": [],
+      "comments": [],
+      "activity": [
+        {
+          "id": "act_mvschcc3",
+          "text": "Created task \"zax\"",
+          "timestamp": "2026-10-28T16:44:39.987Z",
+          "userId": "usr_mvqv3ww90jlx",
+          "userName": "hjgjj"
+        }
+      ],
+      "createdAt": "2026-10-28T16:44:39.987Z",
+      "updatedAt": "2026-10-28T16:44:39.987Z"
+    },
+    {
+      "organizationId": "org_mvqx5ff4jkig",
+      "title": ",m,m",
+      "description": ",m,m",
+      "projectId": "prj_mvqx67lg97xe",
+      "assignedTo": "usr_mvqx5fhathnd",
+      "ownerId": "usr_mvqx5fhathnd",
+      "createdBy": "usr_mvqx5fhathnd",
+      "startDate": "2026-10-28",
+      "status": "TODO",
+      "priority": "MEDIUM",
+      "dueDate": "2026-11-04",
+      "estimatedHours": 8,
+      "actualHours": 0,
+      "tags": [],
+      "dependencies": [],
+      "blockedBy": [],
+      "deadlineRisk": "LOW",
+      "_id": "tsk_mvsalcuidl5o",
+      "attachments": [],
+      "comments": [],
+      "activity": [
+        {
+          "id": "act_mvsalcui",
+          "text": "Created task \",m,m\"",
+          "timestamp": "2026-10-28T15:51:48.042Z",
+          "userId": "usr_mvqx5fhathnd",
+          "userName": "hjgjj"
+        }
+      ],
+      "createdAt": "2026-10-28T15:51:48.042Z",
+      "updatedAt": "2026-10-28T15:51:48.042Z"
+    },
+    {
+      "organizationId": "org_mvqx5ff4jkig",
+      "title": "mnmn",
+      "description": "m,nm,ṁ",
+      "projectId": "prj_mvqx67lg97xe",
+      "assignedTo": "usr_mvqx5fhathnd",
+      "ownerId": "usr_mvqx5fhathnd",
+      "createdBy": "usr_mvqx5fhathnd",
+      "startDate": "2026-10-28",
+      "status": "TODO",
+      "priority": "HIGH",
+      "dueDate": "2026-11-04",
+      "estimatedHours": 8,
+      "actualHours": 0,
+      "tags": [
+        "mnkmn"
+      ],
+      "dependencies": [],
+      "blockedBy": [],
+      "deadlineRisk": "LOW",
+      "_id": "tsk_mvsal2wf4apb",
+      "attachments": [],
+      "comments": [],
+      "activity": [
+        {
+          "id": "act_mvsal2wf",
+          "text": "Created task \"mnmn\"",
+          "timestamp": "2026-10-28T15:51:35.151Z",
+          "userId": "usr_mvqx5fhathnd",
+          "userName": "hjgjj"
+        }
+      ],
+      "createdAt": "2026-10-28T15:51:35.151Z",
+      "updatedAt": "2026-10-28T15:51:35.151Z"
+    },
+    {
+      "organizationId": "org_mvqx5ff4jkig",
+      "title": "mbkj",
+      "description": "mnm,",
+      "projectId": "prj_mvqx67lg97xe",
+      "assignedTo": "usr_mvqx5fhathnd",
+      "ownerId": "usr_mvqx5fhathnd",
+      "createdBy": "usr_mvqx5fhathnd",
+      "startDate": "2026-10-28",
+      "status": "TODO",
+      "priority": "MEDIUM",
+      "dueDate": "2026-11-04",
+      "estimatedHours": 8,
+      "actualHours": 0,
+      "tags": [
+        "kj",
+        "j"
+      ],
+      "dependencies": [],
+      "blockedBy": [],
+      "deadlineRisk": "LOW",
+      "_id": "tsk_mvsahojeuvge",
+      "attachments": [],
+      "comments": [],
+      "activity": [
+        {
+          "id": "act_mvsahoje",
+          "text": "Created task \"mbkj\"",
+          "timestamp": "2026-10-28T15:48:56.569Z",
+          "userId": "usr_mvqx5fhathnd",
+          "userName": "hjgjj"
+        }
+      ],
+      "createdAt": "2026-10-28T15:48:56.569Z",
+      "updatedAt": "2026-10-28T15:48:56.569Z"
+    },
+    {
+      "organizationId": "org_demo",
+      "title": "Design Dashboard UI",
+      "description": "Create core responsive cards, KPI metrics widgets, and modern dark mode layout.",
+      "projectId": "prj_mvsah6qlq7rl",
+      "assignedTo": "usr_ananya",
+      "ownerId": "usr_ananya",
+      "createdBy": "usr_ananya",
+      "startDate": "2026-10-28",
+      "status": "TODO",
+      "priority": "HIGH",
+      "dueDate": "2026-11-02",
+      "estimatedHours": 8,
+      "actualHours": 0,
+      "tags": [],
+      "dependencies": [],
+      "blockedBy": [],
+      "deadlineRisk": "LOW",
+      "_id": "tsk_mvsahl56txzi",
+      "attachments": [],
+      "comments": [],
+      "activity": [
+        {
+          "id": "act_mvsahl56",
+          "text": "Created task \"Design Dashboard UI\"",
+          "timestamp": "2026-10-28T15:48:52.170Z",
+          "userId": "usr_ananya",
+          "userName": "Ananya Sharma"
+        }
+      ],
+      "createdAt": "2026-10-28T15:48:52.170Z",
+      "updatedAt": "2026-10-28T15:48:52.170Z"
+    },
+    {
+      "organizationId": "org_mvqx5ff4jkig",
+      "title": "Design Dashboard UI",
+      "description": "Create core responsive cards, KPI metrics widgets, and modern dark mode layout.",
+      "projectId": "prj_mvqx67lg97xe",
+      "assignedTo": "usr_mvqx5fhathnd",
+      "ownerId": "usr_mvqx5fhathnd",
+      "createdBy": "usr_mvqx5fhathnd",
+      "startDate": "2026-10-27",
+      "status": "TODO",
+      "priority": "HIGH",
+      "dueDate": "2026-11-01",
+      "estimatedHours": 8,
+      "actualHours": 0,
+      "tags": [],
+      "dependencies": [],
+      "blockedBy": [],
+      "deadlineRisk": "LOW",
+      "_id": "tsk_mvqx68h4irh8",
+      "attachments": [],
+      "comments": [],
+      "activity": [
+        {
+          "id": "act_mvqx68h4",
+          "text": "Created task \"Design Dashboard UI\"",
+          "timestamp": "2026-10-27T16:48:21.352Z",
+          "userId": "usr_mvqx5fhathnd",
+          "userName": "hjgjj"
+        }
+      ],
+      "createdAt": "2026-10-27T16:48:21.352Z",
+      "updatedAt": "2026-10-27T16:48:21.352Z"
+    },
+    {
+      "organizationId": "org_mvqv3wub8u1m",
+      "title": "Design Dashboard UI",
+      "description": "Create core responsive cards, KPI metrics widgets, and modern dark mode layout.",
+      "projectId": "prj_mvqx3ri24e40",
+      "assignedTo": "usr_mvqv3ww90jlx",
+      "ownerId": "usr_mvqv3ww90jlx",
+      "createdBy": "usr_mvqv3ww90jlx",
+      "startDate": "2026-10-27",
+      "status": "TODO",
+      "priority": "HIGH",
+      "dueDate": "2026-11-01",
+      "estimatedHours": 8,
+      "actualHours": 0,
+      "tags": [],
+      "dependencies": [],
+      "blockedBy": [],
+      "deadlineRisk": "LOW",
+      "_id": "tsk_mvqx3s9f79st",
+      "attachments": [],
+      "comments": [],
+      "activity": [
+        {
+          "id": "act_mvqx3s9f",
+          "text": "Created task \"Design Dashboard UI\"",
+          "timestamp": "2026-10-27T16:46:27.027Z",
+          "userId": "usr_mvqv3ww90jlx",
+          "userName": "hjgjj"
+        }
+      ],
+      "createdAt": "2026-10-27T16:46:27.027Z",
+      "updatedAt": "2026-10-27T16:46:27.027Z"
+    },
+    {
+      "organizationId": "org_demo",
+      "title": "First Onboarding Task",
+      "description": "Verifying task creation flow",
+      "projectId": "prj_mvqx27ufz5fj",
+      "assignedTo": "usr_mvqwixvvy0lo",
+      "ownerId": "usr_mvqwixvvy0lo",
+      "createdBy": "usr_mvqwixvvy0lo",
+      "startDate": "2026-10-27",
+      "status": "TODO",
+      "priority": "HIGH",
+      "dueDate": "2026-11-03",
+      "estimatedHours": 4,
+      "actualHours": 0,
+      "tags": [],
+      "dependencies": [],
+      "blockedBy": [],
+      "deadlineRisk": "LOW",
+      "_id": "tsk_mvqx2pld9j64",
+      "attachments": [],
+      "comments": [],
+      "activity": [
+        {
+          "id": "act_mvqx2pld",
+          "text": "Created task \"First Onboarding Task\"",
+          "timestamp": "2026-10-27T16:45:36.913Z",
+          "userId": "usr_mvqwixvvy0lo",
+          "userName": "Test Engineer"
+        }
+      ],
+      "createdAt": "2026-10-27T16:45:36.913Z",
+      "updatedAt": "2026-10-27T16:45:36.913Z"
+    },
+    {
+      "organizationId": "org_mvqp8povo8sc",
+      "title": "bjb",
+      "description": "nbvnb",
+      "projectId": "prj_mvquctfxj851",
+      "assignedTo": "usr_mvqp8pr29udo",
+      "ownerId": "usr_mvqp8pr29udo",
+      "createdBy": "usr_mvqp8pr29udo",
+      "startDate": "2026-10-27",
+      "status": "TODO",
+      "priority": "MEDIUM",
+      "dueDate": "2026-11-03",
+      "estimatedHours": 8,
+      "actualHours": 0,
+      "tags": [
+        "bvnb"
+      ],
+      "dependencies": [],
+      "blockedBy": [],
+      "deadlineRisk": "LOW",
+      "_id": "tsk_mvquf74d7njs",
+      "attachments": [],
+      "comments": [],
+      "activity": [
+        {
+          "id": "act_mvquf74d",
+          "text": "Created task \"bjb\"",
+          "timestamp": "2026-10-27T15:31:20.653Z",
+          "userId": "usr_mvqp8pr29udo",
+          "userName": "hjgjj"
+        }
+      ],
+      "createdAt": "2026-10-27T15:31:20.653Z",
+      "updatedAt": "2026-10-27T15:31:20.653Z"
+    },
+    {
+      "organizationId": "org_mvqp8povo8sc",
+      "title": "Review action items from meeting notes",
+      "description": "jjkjkjljl...",
+      "projectId": "prj_mvquctfxj851",
+      "assignedTo": "usr_mvqp8pr29udo",
+      "ownerId": "usr_mvqp8pr29udo",
+      "createdBy": "usr_mvqp8pr29udo",
+      "startDate": "2026-10-27",
+      "status": "TODO",
+      "priority": "MEDIUM",
+      "dueDate": "2026-10-30",
+      "estimatedHours": 2,
+      "actualHours": 0,
+      "tags": [
+        "from-meeting-notes"
+      ],
+      "dependencies": [],
+      "blockedBy": [],
+      "deadlineRisk": "LOW",
+      "_id": "tsk_mvquev9pvgxg",
+      "attachments": [],
+      "comments": [],
+      "activity": [
+        {
+          "id": "act_mvquev9p",
+          "text": "Created task \"Review action items from meeting notes\"",
+          "timestamp": "2026-10-27T15:31:05.293Z",
+          "userId": "usr_mvqp8pr29udo",
+          "userName": "hjgjj"
+        }
+      ],
+      "createdAt": "2026-10-27T15:31:05.293Z",
+      "updatedAt": "2026-10-27T15:31:05.293Z"
+    },
+    {
+      "organizationId": "org_mvqp8povo8sc",
+      "title": "Design Dashboard UI",
+      "description": "Create core responsive cards, KPI metrics widgets, and modern dark mode layout.",
+      "projectId": "prj_mvquctfxj851",
+      "assignedTo": "usr_mvqp8pr29udo",
+      "ownerId": "usr_mvqp8pr29udo",
+      "createdBy": "usr_mvqp8pr29udo",
+      "startDate": "2026-10-27",
+      "status": "TODO",
+      "priority": "HIGH",
+      "dueDate": "2026-11-01",
+      "estimatedHours": 8,
+      "actualHours": 0,
+      "tags": [],
+      "dependencies": [],
+      "blockedBy": [],
+      "deadlineRisk": "LOW",
+      "_id": "tsk_mvquculohebn",
+      "attachments": [],
+      "comments": [],
+      "activity": [
+        {
+          "id": "act_mvquculo",
+          "text": "Created task \"Design Dashboard UI\"",
+          "timestamp": "2026-10-27T15:29:31.116Z",
+          "userId": "usr_mvqp8pr29udo",
+          "userName": "hjgjj"
+        }
+      ],
+      "createdAt": "2026-10-27T15:29:31.116Z",
+      "updatedAt": "2026-10-27T15:29:31.116Z"
+    },
+    {
+      "_id": "tsk_101",
+      "title": "Fix Payment Webhook Concurrency Race Condition",
+      "description": "Under heavy test loads, duplicate webhook events for subscription renewals cause duplicate receipt records. Need Redis distributed locks and idempotency checking.",
+      "projectId": "prj_payment",
+      "assignedTo": "usr_rahul",
+      "createdBy": "usr_arjun",
+      "status": "IN_PROGRESS",
+      "priority": "URGENT",
+      "dueDate": "2026-10-08",
+      "estimatedHours": 12,
+      "actualHours": 14,
+      "tags": [
+        "Backend",
+        "Payment",
+        "Redis",
+        "Critical"
+      ],
+      "comments": [
+        {
+          "id": "c1",
+          "userId": "usr_arjun",
+          "userName": "Arjun Mehta",
+          "userAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+          "content": "Observed this during staging regression test. Redlock algorithm will solve the duplicate key issue.",
+          "createdAt": "2026-10-06T11:20:00.000Z"
+        },
+        {
+          "id": "c2",
+          "userId": "usr_rahul",
+          "userName": "Rahul Kumar",
+          "userAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+          "content": "Implemented idempotency key lookup table. Running stress test with 500 concurrent webhook calls.",
+          "createdAt": "2026-10-07T09:40:00.000Z"
+        }
+      ],
+      "activity": [
+        {
+          "id": "a1",
+          "text": "Created task and set priority to URGENT",
+          "timestamp": "2026-10-05T10:00:00.000Z",
+          "userId": "usr_arjun",
+          "userName": "Arjun Mehta"
+        },
+        {
+          "id": "a2",
+          "text": "Assigned to Rahul Kumar",
+          "timestamp": "2026-10-05T10:05:00.000Z",
+          "userId": "usr_arjun",
+          "userName": "Arjun Mehta"
+        }
+      ],
+      "deadlineRisk": "HIGH",
+      "riskReason": "Due tomorrow with 14 actual hours logged vs 12 est. Rahul has 7 other active tasks.",
+      "createdAt": "2026-10-05T10:00:00.000Z",
+      "updatedAt": "2026-10-07T08:40:52.460Z",
+      "organizationId": "org_demo"
+    },
+    {
+      "_id": "tsk_102",
+      "title": "Architect Gemini AI Workflow Insight Pipeline",
+      "description": "Integrate the server-side Gemini API client to aggregate employee task completion times, estimate bottlenecks, and stream executive summaries.",
+      "projectId": "prj_analytics",
+      "assignedTo": "usr_rahul",
+      "createdBy": "usr_ananya",
+      "status": "IN_REVIEW",
+      "priority": "HIGH",
+      "dueDate": "2026-10-09",
+      "estimatedHours": 16,
+      "actualHours": 15,
+      "tags": [
+        "AI",
+        "Gemini",
+        "Backend",
+        "Express"
+      ],
+      "comments": [
+        {
+          "id": "c3",
+          "userId": "usr_ananya",
+          "userName": "Ananya Sharma",
+          "userAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+          "content": "Code review submitted. Ensure structured JSON schemas are enforced for all insights.",
+          "createdAt": "2026-10-07T10:15:00.000Z"
+        }
+      ],
+      "activity": [
+        {
+          "id": "a3",
+          "text": "Status changed from IN_PROGRESS to IN_REVIEW",
+          "timestamp": "2026-10-07T09:30:00.000Z",
+          "userId": "usr_rahul",
+          "userName": "Rahul Kumar"
+        }
+      ],
+      "deadlineRisk": "MEDIUM",
+      "riskReason": "Awaiting PR review approval before staging rollout.",
+      "createdAt": "2026-10-04T09:00:00.000Z",
+      "updatedAt": "2026-10-07T08:40:52.460Z",
+      "organizationId": "org_demo"
+    },
+    {
+      "_id": "tsk_103",
+      "title": "Design Accessible Token System for Dark & Light Themes",
+      "description": "Create semantic tokens for surfaces, text contrast ratios, border weights, and interactive states conforming to WCAG AA.",
+      "projectId": "prj_design_system",
+      "assignedTo": "usr_priya",
+      "createdBy": "usr_sneha",
+      "status": "COMPLETED",
+      "priority": "MEDIUM",
+      "dueDate": "2026-10-06",
+      "estimatedHours": 14,
+      "actualHours": 13,
+      "tags": [
+        "Design",
+        "Tokens",
+        "Accessibility",
+        "Figma"
+      ],
+      "comments": [],
+      "activity": [
+        {
+          "id": "a4",
+          "text": "Priya marked task as COMPLETED",
+          "timestamp": "2026-10-06T16:00:00.000Z",
+          "userId": "usr_priya",
+          "userName": "Priya Nair"
+        }
+      ],
+      "deadlineRisk": "LOW",
+      "createdAt": "2026-10-01T11:00:00.000Z",
+      "updatedAt": "2026-10-06T16:00:00.000Z",
+      "organizationId": "org_demo"
+    },
+    {
+      "_id": "tsk_104",
+      "title": "Build Executive Productivity KPI Widgets",
+      "description": "Implement reusable SVG line, donut, and comparative bar components for tracking team velocity, workload balance, and task variance.",
+      "projectId": "prj_analytics",
+      "assignedTo": "usr_vikram",
+      "createdBy": "usr_priya",
+      "status": "IN_PROGRESS",
+      "priority": "HIGH",
+      "dueDate": "2026-10-10",
+      "estimatedHours": 10,
+      "actualHours": 6,
+      "tags": [
+        "Frontend",
+        "React",
+        "Analytics",
+        "Charts"
+      ],
+      "comments": [],
+      "activity": [
+        {
+          "id": "a5",
+          "text": "Vikram started working on widget responsive states",
+          "timestamp": "2026-10-06T14:20:00.000Z",
+          "userId": "usr_vikram",
+          "userName": "Vikram Patel"
+        }
+      ],
+      "deadlineRisk": "LOW",
+      "createdAt": "2026-10-05T09:30:00.000Z",
+      "updatedAt": "2026-10-07T08:40:52.460Z",
+      "organizationId": "org_demo"
+    },
+    {
+      "_id": "tsk_105",
+      "title": "Automated E2E Penetration Test for Auth Endpoints",
+      "description": "Write Playwright tests simulating brute force attempts, token replay, expired JWT refreshes, and role privilege escalation.",
+      "projectId": "prj_cloud",
+      "assignedTo": "usr_neha",
+      "createdBy": "usr_arjun",
+      "status": "TODO",
+      "priority": "HIGH",
+      "dueDate": "2026-10-12",
+      "estimatedHours": 18,
+      "actualHours": 2,
+      "tags": [
+        "Security",
+        "QA",
+        "Playwright",
+        "JWT"
+      ],
+      "comments": [],
+      "activity": [
+        {
+          "id": "a6",
+          "text": "Created task and assigned to Neha Deshmukh",
+          "timestamp": "2026-10-06T15:00:00.000Z",
+          "userId": "usr_arjun",
+          "userName": "Arjun Mehta"
+        }
+      ],
+      "deadlineRisk": "LOW",
+      "createdAt": "2026-10-06T15:00:00.000Z",
+      "updatedAt": "2026-10-07T08:40:52.460Z",
+      "organizationId": "org_demo"
+    },
+    {
+      "_id": "tsk_106",
+      "title": "Stripe Multi-Currency Settlement Reconciliation",
+      "description": "Nightly batch job comparing Stripe payout ledger with internal accounts payable and generating discrepancy logs.",
+      "projectId": "prj_payment",
+      "assignedTo": "usr_rahul",
+      "createdBy": "usr_sneha",
+      "status": "BLOCKED",
+      "priority": "URGENT",
+      "dueDate": "2026-10-09",
+      "estimatedHours": 16,
+      "actualHours": 12,
+      "tags": [
+        "Backend",
+        "Finance",
+        "Cron",
+        "Stripe"
+      ],
+      "comments": [
+        {
+          "id": "c4",
+          "userId": "usr_rahul",
+          "userName": "Rahul Kumar",
+          "userAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+          "content": "BLOCKED: Waiting for Sandbox banking credentials from the compliance department.",
+          "createdAt": "2026-10-06T17:30:00.000Z"
+        }
+      ],
+      "activity": [
+        {
+          "id": "a7",
+          "text": "Status changed to BLOCKED (waiting for external credentials)",
+          "timestamp": "2026-10-06T17:30:00.000Z",
+          "userId": "usr_rahul",
+          "userName": "Rahul Kumar"
+        }
+      ],
+      "deadlineRisk": "HIGH",
+      "riskReason": "Blocked with external dependency and due in 2 days.",
+      "createdAt": "2026-10-03T10:00:00.000Z",
+      "updatedAt": "2026-10-07T08:40:52.460Z",
+      "organizationId": "org_demo"
+    },
+    {
+      "_id": "tsk_107",
+      "title": "Figma UI Library Synchronizer Plugin",
+      "description": "Develop automated script that parses Figma Tokens JSON export and commits directly to the Tailwind theme config.",
+      "projectId": "prj_design_system",
+      "assignedTo": "usr_priya",
+      "createdBy": "usr_priya",
+      "status": "IN_PROGRESS",
+      "priority": "MEDIUM",
+      "dueDate": "2026-10-13",
+      "estimatedHours": 8,
+      "actualHours": 4,
+      "tags": [
+        "Tooling",
+        "Figma",
+        "TypeScript"
+      ],
+      "comments": [],
+      "activity": [],
+      "deadlineRisk": "LOW",
+      "createdAt": "2026-10-05T11:00:00.000Z",
+      "updatedAt": "2026-10-07T08:40:52.460Z",
+      "organizationId": "org_demo"
+    },
+    {
+      "_id": "tsk_108",
+      "title": "Optimize Database Indexing for Real-Time Query Workload",
+      "description": "Analyze slow query logs on task and project aggregates. Add compound indexes on {projectId, status, dueDate}.",
+      "projectId": "prj_analytics",
+      "assignedTo": "usr_arjun",
+      "createdBy": "usr_ananya",
+      "status": "COMPLETED",
+      "priority": "HIGH",
+      "dueDate": "2026-10-05",
+      "estimatedHours": 6,
+      "actualHours": 5,
+      "tags": [
+        "Database",
+        "Optimization",
+        "Performance"
+      ],
+      "comments": [],
+      "activity": [
+        {
+          "id": "a8",
+          "text": "Arjun completed query profiling and index migration",
+          "timestamp": "2026-10-05T18:00:00.000Z",
+          "userId": "usr_arjun",
+          "userName": "Arjun Mehta"
+        }
+      ],
+      "deadlineRisk": "LOW",
+      "createdAt": "2026-10-02T09:00:00.000Z",
+      "updatedAt": "2026-10-05T18:00:00.000Z",
+      "organizationId": "org_demo"
+    },
+    {
+      "_id": "tsk_109",
+      "title": "Customer Onboarding Feedback Survey Automation",
+      "description": "Send automated micro-surveys at Day 7 and Day 30 to measure platform NPS and identify friction points.",
+      "projectId": "prj_workforce",
+      "assignedTo": "usr_sneha",
+      "createdBy": "usr_sneha",
+      "status": "COMPLETED",
+      "priority": "LOW",
+      "dueDate": "2026-10-03",
+      "estimatedHours": 8,
+      "actualHours": 7,
+      "tags": [
+        "Product",
+        "NPS",
+        "Feedback"
+      ],
+      "comments": [],
+      "activity": [],
+      "deadlineRisk": "LOW",
+      "createdAt": "2026-09-27T10:00:00.000Z",
+      "updatedAt": "2026-10-03T14:00:00.000Z",
+      "organizationId": "org_demo"
+    },
+    {
+      "_id": "tsk_110",
+      "title": "Refactor Auth Token Refresh Interceptor in Axios/Fetch",
+      "description": "Ensure expired JWT access tokens trigger seamless silent refresh without user session interruption or 401 flicker.",
+      "projectId": "prj_analytics",
+      "assignedTo": "usr_vikram",
+      "createdBy": "usr_rahul",
+      "status": "TODO",
+      "priority": "MEDIUM",
+      "dueDate": "2026-10-11",
+      "estimatedHours": 6,
+      "actualHours": 0,
+      "tags": [
+        "Frontend",
+        "Auth",
+        "JavaScript"
+      ],
+      "comments": [],
+      "activity": [],
+      "deadlineRisk": "LOW",
+      "createdAt": "2026-10-06T16:00:00.000Z",
+      "updatedAt": "2026-10-07T08:40:52.460Z",
+      "organizationId": "org_demo"
+    },
+    {
+      "_id": "tsk_111",
+      "title": "Microservices Health Check & Prometheus Exporters",
+      "description": "Standardize /healthz and /metrics endpoints across all backend services with memory, CPU, and event-loop lag metrics.",
+      "projectId": "prj_cloud",
+      "assignedTo": "usr_arjun",
+      "createdBy": "usr_ananya",
+      "status": "IN_PROGRESS",
+      "priority": "HIGH",
+      "dueDate": "2026-10-11",
+      "estimatedHours": 14,
+      "actualHours": 8,
+      "tags": [
+        "DevOps",
+        "Monitoring",
+        "Prometheus"
+      ],
+      "comments": [],
+      "activity": [],
+      "deadlineRisk": "LOW",
+      "createdAt": "2026-10-05T08:00:00.000Z",
+      "updatedAt": "2026-10-07T08:40:52.460Z",
+      "organizationId": "org_demo"
+    },
+    {
+      "_id": "tsk_112",
+      "title": "Prepare Sprint 14 Retrospective & Velocity Analysis",
+      "description": "Synthesize velocity charts, carried-over story points, and team sentiment survey for executive engineering review.",
+      "projectId": "prj_analytics",
+      "assignedTo": "usr_sneha",
+      "createdBy": "usr_ananya",
+      "status": "TODO",
+      "priority": "MEDIUM",
+      "dueDate": "2026-10-12",
+      "estimatedHours": 5,
+      "actualHours": 1,
+      "tags": [
+        "Agile",
+        "Scrum",
+        "Management"
+      ],
+      "comments": [],
+      "activity": [],
+      "deadlineRisk": "LOW",
+      "createdAt": "2026-10-06T11:00:00.000Z",
+      "updatedAt": "2026-10-07T08:40:52.460Z",
+      "organizationId": "org_demo"
+    }
+  ],
+  "notifications": [
+    {
+      "organizationId": "org_demo",
+      "userId": "usr_arjun",
+      "title": "Overdue Project Task",
+      "message": "Task \"Prepare Sprint 14 Retrospective & Velocity Analysis\" in project \"AI Analytics Platform\" is overdue.",
+      "type": "warning",
+      "link": "/tasks/tsk_112",
+      "read": false,
+      "_id": "notif_mvsaenro0oiy",
+      "createdAt": "2026-10-28T15:46:35.604Z"
+    },
+    {
+      "organizationId": "org_demo",
+      "userId": "usr_sneha",
+      "title": "Task Overdue Notice",
+      "message": "Task \"Prepare Sprint 14 Retrospective & Velocity Analysis\" is overdue (due date: 2026-10-12). Please update the status or timeline.",
+      "type": "warning",
+      "link": "/tasks/tsk_112",
+      "read": false,
+      "_id": "notif_mvsaenrmdzrw",
+      "createdAt": "2026-10-28T15:46:35.602Z"
+    },
+    {
+      "organizationId": "org_demo",
+      "userId": "usr_arjun",
+      "title": "Task Overdue Notice",
+      "message": "Task \"Microservices Health Check & Prometheus Exporters\" is overdue (due date: 2026-10-11). Please update the status or timeline.",
+      "type": "warning",
+      "link": "/tasks/tsk_111",
+      "read": false,
+      "_id": "notif_mvsaenrhfx9f",
+      "createdAt": "2026-10-28T15:46:35.597Z"
+    },
+    {
+      "organizationId": "org_demo",
+      "userId": "usr_arjun",
+      "title": "Overdue Project Task",
+      "message": "Task \"Refactor Auth Token Refresh Interceptor in Axios/Fetch\" in project \"AI Analytics Platform\" is overdue.",
+      "type": "warning",
+      "link": "/tasks/tsk_110",
+      "read": false,
+      "_id": "notif_mvsaenrejcdv",
+      "createdAt": "2026-10-28T15:46:35.594Z"
+    },
+    {
+      "organizationId": "org_demo",
+      "userId": "usr_vikram",
+      "title": "Task Overdue Notice",
+      "message": "Task \"Refactor Auth Token Refresh Interceptor in Axios/Fetch\" is overdue (due date: 2026-10-11). Please update the status or timeline.",
+      "type": "warning",
+      "link": "/tasks/tsk_110",
+      "read": false,
+      "_id": "notif_mvsaenrbivdx",
+      "createdAt": "2026-10-28T15:46:35.591Z"
+    },
+    {
+      "organizationId": "org_demo",
+      "userId": "usr_priya",
+      "title": "Task Overdue Notice",
+      "message": "Task \"Figma UI Library Synchronizer Plugin\" is overdue (due date: 2026-10-13). Please update the status or timeline.",
+      "type": "warning",
+      "link": "/tasks/tsk_107",
+      "read": false,
+      "_id": "notif_mvsaenr8ir6g",
+      "createdAt": "2026-10-28T15:46:35.588Z"
+    },
+    {
+      "organizationId": "org_demo",
+      "userId": "usr_rahul",
+      "title": "Task Overdue Notice",
+      "message": "Task \"Stripe Multi-Currency Settlement Reconciliation\" is overdue (due date: 2026-10-09). Please update the status or timeline.",
+      "type": "warning",
+      "link": "/tasks/tsk_106",
+      "read": false,
+      "_id": "notif_mvsaenr5td8m",
+      "createdAt": "2026-10-28T15:46:35.585Z"
+    },
+    {
+      "organizationId": "org_demo",
+      "userId": "usr_arjun",
+      "title": "Overdue Project Task",
+      "message": "Task \"Automated E2E Penetration Test for Auth Endpoints\" in project \"Zero-Trust Cloud Mesh Migration\" is overdue.",
+      "type": "warning",
+      "link": "/tasks/tsk_105",
+      "read": false,
+      "_id": "notif_mvsaenr1f2v5",
+      "createdAt": "2026-10-28T15:46:35.581Z"
+    },
+    {
+      "organizationId": "org_demo",
+      "userId": "usr_neha",
+      "title": "Task Overdue Notice",
+      "message": "Task \"Automated E2E Penetration Test for Auth Endpoints\" is overdue (due date: 2026-10-12). Please update the status or timeline.",
+      "type": "warning",
+      "link": "/tasks/tsk_105",
+      "read": false,
+      "_id": "notif_mvsaenqy9hjm",
+      "createdAt": "2026-10-28T15:46:35.578Z"
+    },
+    {
+      "organizationId": "org_demo",
+      "userId": "usr_arjun",
+      "title": "Overdue Project Task",
+      "message": "Task \"Build Executive Productivity KPI Widgets\" in project \"AI Analytics Platform\" is overdue.",
+      "type": "warning",
+      "link": "/tasks/tsk_104",
+      "read": false,
+      "_id": "notif_mvsaenqv3j7q",
+      "createdAt": "2026-10-28T15:46:35.575Z"
+    },
+    {
+      "organizationId": "org_demo",
+      "userId": "usr_vikram",
+      "title": "Task Overdue Notice",
+      "message": "Task \"Build Executive Productivity KPI Widgets\" is overdue (due date: 2026-10-10). Please update the status or timeline.",
+      "type": "warning",
+      "link": "/tasks/tsk_104",
+      "read": false,
+      "_id": "notif_mvsaenqs3lky",
+      "createdAt": "2026-10-28T15:46:35.572Z"
+    },
+    {
+      "organizationId": "org_demo",
+      "userId": "usr_arjun",
+      "title": "Overdue Project Task",
+      "message": "Task \"Architect Gemini AI Workflow Insight Pipeline\" in project \"AI Analytics Platform\" is overdue.",
+      "type": "warning",
+      "link": "/tasks/tsk_102",
+      "read": false,
+      "_id": "notif_mvsaenqq787v",
+      "createdAt": "2026-10-28T15:46:35.570Z"
+    },
+    {
+      "organizationId": "org_demo",
+      "userId": "usr_rahul",
+      "title": "Task Overdue Notice",
+      "message": "Task \"Architect Gemini AI Workflow Insight Pipeline\" is overdue (due date: 2026-10-09). Please update the status or timeline.",
+      "type": "warning",
+      "link": "/tasks/tsk_102",
+      "read": false,
+      "_id": "notif_mvsaenqn0hor",
+      "createdAt": "2026-10-28T15:46:35.567Z"
+    },
+    {
+      "organizationId": "org_demo",
+      "userId": "usr_rahul",
+      "title": "Task Overdue Notice",
+      "message": "Task \"Fix Payment Webhook Concurrency Race Condition\" is overdue (due date: 2026-10-08). Please update the status or timeline.",
+      "type": "warning",
+      "link": "/tasks/tsk_101",
+      "read": false,
+      "_id": "notif_mvsaenql174t",
+      "createdAt": "2026-10-28T15:46:35.565Z"
+    },
+    {
+      "_id": "notif_1",
+      "userId": "usr_ananya",
+      "title": "Workload Imbalance Alert",
+      "message": "Rahul Kumar is currently assigned 3 high/urgent priority tasks with overlapping deadlines.",
+      "type": "ai",
+      "link": "/ai-insights",
+      "read": false,
+      "createdAt": "2026-10-07T08:30:00.000Z"
+    },
+    {
+      "_id": "notif_2",
+      "userId": "usr_ananya",
+      "title": "Task Marked Complete",
+      "message": "Arjun Mehta completed \"Optimize Database Indexing for Real-Time Query Workload\".",
+      "type": "task",
+      "link": "/tasks",
+      "read": false,
+      "createdAt": "2026-10-07T07:45:00.000Z"
+    },
+    {
+      "_id": "notif_3",
+      "userId": "usr_rahul",
+      "title": "Task Assigned",
+      "message": "Arjun Mehta assigned you \"Fix Payment Webhook Concurrency Race Condition\".",
+      "type": "task",
+      "link": "/tasks",
+      "read": false,
+      "createdAt": "2026-10-06T10:05:00.000Z"
+    },
+    {
+      "_id": "notif_4",
+      "userId": "usr_rahul",
+      "title": "Dependency Blocked",
+      "message": "Task \"Stripe Multi-Currency Settlement\" marked BLOCKED pending sandbox access.",
+      "type": "warning",
+      "link": "/tasks",
+      "read": true,
+      "createdAt": "2026-10-06T17:35:00.000Z"
+    },
+    {
+      "_id": "notif_5",
+      "userId": "usr_ananya",
+      "title": "Project Milestone Reached",
+      "message": "Enterprise Design System v3.0 completed milestone: Typography and Color Token Scale.",
+      "type": "project",
+      "link": "/projects",
+      "read": true,
+      "createdAt": "2026-10-05T16:00:00.000Z"
+    }
+  ],
+  "activities": [
+    {
+      "organizationId": "org_mvqv3wub8u1m",
+      "userId": "usr_mvqv3ww90jlx",
+      "userName": "hjgjj",
+      "userAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "action": "created task",
+      "targetType": "task",
+      "targetId": "tsk_mvschlzjgjmg",
+      "details": "Created task \"szx\" in project \"AI Employee Productivity Platform\"",
+      "_id": "act_mvschlzldhau",
+      "timestamp": "2026-10-28T16:44:52.497Z"
+    },
+    {
+      "organizationId": "org_mvqv3wub8u1m",
+      "userId": "usr_mvqv3ww90jlx",
+      "userName": "hjgjj",
+      "userAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "action": "created task",
+      "targetType": "task",
+      "targetId": "tsk_mvschcc39321",
+      "details": "Created task \"zax\" in project \"AI Employee Productivity Platform\"",
+      "_id": "act_mvschcc4gjla",
+      "timestamp": "2026-10-28T16:44:39.988Z"
+    },
+    {
+      "organizationId": "org_mvsbs01fnngq",
+      "userId": "usr_mvsbs03g6un6",
+      "userName": "fsdfw",
+      "userAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "action": "completed onboarding",
+      "targetType": "system",
+      "details": "fsdfw completed initial workspace setup",
+      "_id": "act_mvsccotk4ie3",
+      "timestamp": "2026-10-28T16:41:02.888Z"
+    },
+    {
+      "organizationId": "org_mvsbs01fnngq",
+      "userId": "usr_mvsbs03g6un6",
+      "userName": "fsdfw",
+      "userAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "action": "created organization",
+      "targetType": "organization",
+      "targetId": "org_mvsbs01fnngq",
+      "details": "fsdfw created workspace for \"dqeqw\"",
+      "_id": "act_mvsbs03jqkdb",
+      "timestamp": "2026-10-28T16:24:57.727Z"
+    },
+    {
+      "organizationId": "org_mvqx5ff4jkig",
+      "userId": "usr_mvqx5fhathnd",
+      "userName": "hjgjj",
+      "userAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "action": "created task",
+      "targetType": "task",
+      "targetId": "tsk_mvsalcuidl5o",
+      "details": "Created task \",m,m\" in project \"AI Employee Productivity Platform\"",
+      "_id": "act_mvsalcurbjjm",
+      "timestamp": "2026-10-28T15:51:48.051Z"
+    },
+    {
+      "organizationId": "org_mvqx5ff4jkig",
+      "userId": "usr_mvqx5fhathnd",
+      "userName": "hjgjj",
+      "userAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "action": "created task",
+      "targetType": "task",
+      "targetId": "tsk_mvsal2wf4apb",
+      "details": "Created task \"mnmn\" in project \"AI Employee Productivity Platform\"",
+      "_id": "act_mvsal2winrys",
+      "timestamp": "2026-10-28T15:51:35.154Z"
+    },
+    {
+      "organizationId": "org_mvqx5ff4jkig",
+      "userId": "usr_mvqx5fhathnd",
+      "userName": "hjgjj",
+      "userAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "action": "added employee",
+      "targetType": "team",
+      "targetId": "usr_mvsajqu39vjo",
+      "details": "Added mnn (employee) to Engineering",
+      "_id": "act_mvsajqvddfu3",
+      "timestamp": "2026-10-28T15:50:32.905Z"
+    },
+    {
+      "organizationId": "org_mvqx5ff4jkig",
+      "userId": "usr_mvqx5fhathnd",
+      "userName": "hjgjj",
+      "userAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "action": "created project",
+      "targetType": "project",
+      "targetId": "prj_mvsaj5eoaxv2",
+      "details": "Created project \"mbbmn\" [MJK,]",
+      "_id": "act_mvsaj5f2tbe6",
+      "timestamp": "2026-10-28T15:50:05.102Z"
+    },
+    {
+      "organizationId": "org_demo",
+      "userId": "usr_ananya",
+      "userName": "Ananya Sharma",
+      "userAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "action": "completed onboarding",
+      "targetType": "system",
+      "details": "Ananya Sharma completed initial workspace setup",
+      "_id": "act_mvsai2t0z72j",
+      "timestamp": "2026-10-28T15:49:15.060Z"
+    },
+    {
+      "organizationId": "org_mvqx5ff4jkig",
+      "userId": "usr_mvqx5fhathnd",
+      "userName": "hjgjj",
+      "userAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "action": "created task",
+      "targetType": "task",
+      "targetId": "tsk_mvsahojeuvge",
+      "details": "Created task \"mbkj\" in project \"AI Employee Productivity Platform\"",
+      "_id": "act_mvsahojjkqo3",
+      "timestamp": "2026-10-28T15:48:56.575Z"
+    },
+    {
+      "organizationId": "org_demo",
+      "userId": "usr_ananya",
+      "userName": "Ananya Sharma",
+      "userAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "action": "created task",
+      "targetType": "task",
+      "targetId": "tsk_mvsahl56txzi",
+      "details": "Created task \"Design Dashboard UI\" in project \"AI Analytics Platform\"",
+      "_id": "act_mvsahl5dsuae",
+      "timestamp": "2026-10-28T15:48:52.177Z"
+    },
+    {
+      "organizationId": "org_demo",
+      "userId": "usr_ananya",
+      "userName": "Ananya Sharma",
+      "userAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "action": "created project",
+      "targetType": "project",
+      "targetId": "prj_mvsah6qlq7rl",
+      "details": "Created project \"AI Analytics Platform\" [AIAN]",
+      "_id": "act_mvsah6r0vit6",
+      "timestamp": "2026-10-28T15:48:33.516Z"
+    },
+    {
+      "organizationId": "org_mvqx5ff4jkig",
+      "userId": "usr_mvqx5fhathnd",
+      "userName": "hjgjj",
+      "userAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "action": "completed onboarding",
+      "targetType": "system",
+      "details": "hjgjj completed initial workspace setup",
+      "_id": "act_mvqx69odyb3j",
+      "timestamp": "2026-10-27T16:48:22.909Z"
+    },
+    {
+      "organizationId": "org_mvqx5ff4jkig",
+      "userId": "usr_mvqx5fhathnd",
+      "userName": "hjgjj",
+      "userAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "action": "created task",
+      "targetType": "task",
+      "targetId": "tsk_mvqx68h4irh8",
+      "details": "Created task \"Design Dashboard UI\" in project \"AI Employee Productivity Platform\"",
+      "_id": "act_mvqx68h6xlie",
+      "timestamp": "2026-10-27T16:48:21.354Z"
+    },
+    {
+      "organizationId": "org_mvqx5ff4jkig",
+      "userId": "usr_mvqx5fhathnd",
+      "userName": "hjgjj",
+      "userAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "action": "created project",
+      "targetType": "project",
+      "targetId": "prj_mvqx67lg97xe",
+      "details": "Created project \"AI Employee Productivity Platform\" [AIEM]",
+      "_id": "act_mvqx67lko5rj",
+      "timestamp": "2026-10-27T16:48:20.216Z"
+    },
+    {
+      "organizationId": "org_mvqx5ff4jkig",
+      "userId": "usr_mvqx5fhathnd",
+      "userName": "hjgjj",
+      "userAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "action": "created organization",
+      "targetType": "organization",
+      "targetId": "org_mvqx5ff4jkig",
+      "details": "hjgjj created workspace for \"ghv\"",
+      "_id": "act_mvqx5fhc68lw",
+      "timestamp": "2026-10-27T16:47:43.776Z"
+    },
+    {
+      "organizationId": "org_mvqv3wub8u1m",
+      "userId": "usr_mvqv3ww90jlx",
+      "userName": "hjgjj",
+      "userAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "action": "completed onboarding",
+      "targetType": "system",
+      "details": "hjgjj completed initial workspace setup",
+      "_id": "act_mvqx3wo1uzqq",
+      "timestamp": "2026-10-27T16:46:32.737Z"
+    },
+    {
+      "organizationId": "org_mvqv3wub8u1m",
+      "userId": "usr_mvqv3ww90jlx",
+      "userName": "hjgjj",
+      "userAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "action": "created task",
+      "targetType": "task",
+      "targetId": "tsk_mvqx3s9f79st",
+      "details": "Created task \"Design Dashboard UI\" in project \"AI Employee Productivity Platform\"",
+      "_id": "act_mvqx3s9hckun",
+      "timestamp": "2026-10-27T16:46:27.029Z"
+    },
+    {
+      "organizationId": "org_mvqv3wub8u1m",
+      "userId": "usr_mvqv3ww90jlx",
+      "userName": "hjgjj",
+      "userAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "action": "created project",
+      "targetType": "project",
+      "targetId": "prj_mvqx3ri24e40",
+      "details": "Created project \"AI Employee Productivity Platform\" [AIEM]",
+      "_id": "act_mvqx3ri42c3d",
+      "timestamp": "2026-10-27T16:46:26.044Z"
+    },
+    {
+      "organizationId": "org_mvqv3wub8u1m",
+      "userId": "usr_mvqv3ww90jlx",
+      "userName": "hjgjj",
+      "userAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "action": "completed onboarding",
+      "targetType": "system",
+      "details": "hjgjj completed initial workspace setup",
+      "_id": "act_mvqx32suskeq",
+      "timestamp": "2026-10-27T16:45:54.030Z"
+    },
+    {
+      "organizationId": "org_demo",
+      "userId": "usr_mvqwixvvy0lo",
+      "userName": "Test Engineer",
+      "userAvatar": "https://images.unsplash.com/photo-1500250846992?w=150&auto=format&fit=crop&q=80",
+      "action": "created task",
+      "targetType": "task",
+      "targetId": "tsk_mvqx2pld9j64",
+      "details": "Created task \"First Onboarding Task\" in project \"Employee Workflow Test Project\"",
+      "_id": "act_mvqx2ple0xjg",
+      "timestamp": "2026-10-27T16:45:36.914Z"
+    },
+    {
+      "organizationId": "org_demo",
+      "userId": "usr_mvqwixvvy0lo",
+      "userName": "Test Engineer",
+      "userAvatar": "https://images.unsplash.com/photo-1500250846992?w=150&auto=format&fit=crop&q=80",
+      "action": "created project",
+      "targetType": "project",
+      "targetId": "prj_mvqx27ufz5fj",
+      "details": "Created project \"Employee Workflow Test Project\" [EMPL]",
+      "_id": "act_mvqx27ughprk",
+      "timestamp": "2026-10-27T16:45:13.912Z"
+    },
+    {
+      "organizationId": "org_demo",
+      "userId": "usr_ananya",
+      "userName": "Ananya Sharma",
+      "userAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "action": "changed role",
+      "targetType": "team",
+      "targetId": "usr_rahul",
+      "details": "Changed role of Rahul Kumar from team_lead to employee",
+      "_id": "act_mvqwk4f21yvb",
+      "timestamp": "2026-10-27T16:31:09.662Z"
+    },
+    {
+      "organizationId": "org_demo",
+      "userId": "usr_ananya",
+      "userName": "Ananya Sharma",
+      "userAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "action": "changed role",
+      "targetType": "team",
+      "targetId": "usr_rahul",
+      "details": "Changed role of Rahul Kumar from manager to team_lead",
+      "_id": "act_mvqwk4exogdr",
+      "timestamp": "2026-10-27T16:31:09.657Z"
+    },
+    {
+      "organizationId": "org_demo",
+      "userId": "usr_ananya",
+      "userName": "Ananya Sharma",
+      "userAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "action": "changed role",
+      "targetType": "team",
+      "targetId": "usr_rahul",
+      "details": "Changed role of Rahul Kumar from admin to manager",
+      "_id": "act_mvqwk4eskbb7",
+      "timestamp": "2026-10-27T16:31:09.652Z"
+    },
+    {
+      "organizationId": "org_demo",
+      "userId": "usr_ananya",
+      "userName": "Ananya Sharma",
+      "userAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "action": "changed role",
+      "targetType": "team",
+      "targetId": "usr_rahul",
+      "details": "Changed role of Rahul Kumar from employee to admin",
+      "_id": "act_mvqwk4enso9n",
+      "timestamp": "2026-10-27T16:31:09.647Z"
+    },
+    {
+      "organizationId": "org_demo",
+      "userId": "usr_ananya",
+      "userName": "Ananya Sharma",
+      "userAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "action": "added employee",
+      "targetType": "team",
+      "targetId": "usr_mvqwixvvy0lo",
+      "details": "Added Test Engineer (employee) to Engineering",
+      "_id": "act_mvqwixvx8ngg",
+      "timestamp": "2026-10-27T16:30:14.541Z"
+    },
+    {
+      "organizationId": "org_demo",
+      "userId": "usr_ananya",
+      "userName": "Ananya Sharma",
+      "userAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "action": "changed role",
+      "targetType": "team",
+      "targetId": "usr_rahul",
+      "details": "Changed role of Rahul Kumar from manager to employee",
+      "_id": "act_mvqwibjlr4z4",
+      "timestamp": "2026-10-27T16:29:45.585Z"
+    },
+    {
+      "organizationId": "org_demo",
+      "userId": "usr_ananya",
+      "userName": "Ananya Sharma",
+      "userAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "action": "changed role",
+      "targetType": "team",
+      "targetId": "usr_rahul",
+      "details": "Changed role of Rahul Kumar from employee to manager",
+      "_id": "act_mvqwibjgabke",
+      "timestamp": "2026-10-27T16:29:45.580Z"
+    },
+    {
+      "organizationId": "org_mvqv3wub8u1m",
+      "userId": "usr_mvqv3ww90jlx",
+      "userName": "hjgjj",
+      "userAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "action": "created organization",
+      "targetType": "organization",
+      "targetId": "org_mvqv3wub8u1m",
+      "details": "hjgjj created workspace for \"ghv\"",
+      "_id": "act_mvqv3wwbhve3",
+      "timestamp": "2026-10-27T15:50:33.803Z"
+    },
+    {
+      "organizationId": "org_mvqp8povo8sc",
+      "userId": "usr_mvqp8pr29udo",
+      "userName": "hjgjj",
+      "userAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "action": "created task",
+      "targetType": "task",
+      "targetId": "tsk_mvquf74d7njs",
+      "details": "Created task \"bjb\" in project \"AI Employee Productivity Platform\"",
+      "_id": "act_mvquf74g6lj2",
+      "timestamp": "2026-10-27T15:31:20.656Z"
+    },
+    {
+      "organizationId": "org_mvqp8povo8sc",
+      "userId": "usr_mvqp8pr29udo",
+      "userName": "hjgjj",
+      "userAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "action": "created task",
+      "targetType": "task",
+      "targetId": "tsk_mvquev9pvgxg",
+      "details": "Created task \"Review action items from meeting notes\" in project \"AI Employee Productivity Platform\"",
+      "_id": "act_mvquev9try51",
+      "timestamp": "2026-10-27T15:31:05.297Z"
+    },
+    {
+      "organizationId": "org_mvqp8povo8sc",
+      "userId": "usr_mvqp8pr29udo",
+      "userName": "hjgjj",
+      "userAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "action": "completed onboarding",
+      "targetType": "system",
+      "details": "hjgjj completed initial workspace setup",
+      "_id": "act_mvqucw1hh2j6",
+      "timestamp": "2026-10-27T15:29:32.981Z"
+    },
+    {
+      "organizationId": "org_mvqp8povo8sc",
+      "userId": "usr_mvqp8pr29udo",
+      "userName": "hjgjj",
+      "userAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "action": "created task",
+      "targetType": "task",
+      "targetId": "tsk_mvquculohebn",
+      "details": "Created task \"Design Dashboard UI\" in project \"AI Employee Productivity Platform\"",
+      "_id": "act_mvquculqp0md",
+      "timestamp": "2026-10-27T15:29:31.118Z"
+    },
+    {
+      "organizationId": "org_mvqp8povo8sc",
+      "userId": "usr_mvqp8pr29udo",
+      "userName": "hjgjj",
+      "userAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "action": "created project",
+      "targetType": "project",
+      "targetId": "prj_mvquctfxj851",
+      "details": "Created project \"AI Employee Productivity Platform\" [AIEM]",
+      "_id": "act_mvquctg0v2j2",
+      "timestamp": "2026-10-27T15:29:29.616Z"
+    },
+    {
+      "organizationId": "org_mvqp8povo8sc",
+      "userId": "usr_mvqp8pr29udo",
+      "userName": "hjgjj",
+      "userAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "action": "created organization",
+      "targetType": "organization",
+      "targetId": "org_mvqp8povo8sc",
+      "details": "hjgjj created workspace for \"ghv\"",
+      "_id": "act_mvqp8pr5qqfx",
+      "timestamp": "2026-10-27T13:06:20.129Z"
+    },
+    {
+      "organizationId": "org_muycu06k8vd6",
+      "userId": "usr_muycu089iwqi",
+      "userName": "Test Admin",
+      "userAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "action": "created organization",
+      "targetType": "organization",
+      "targetId": "org_muycu06k8vd6",
+      "details": "Test Admin created workspace for \"NewCo Inc\"",
+      "_id": "act_muycu08cybec",
+      "timestamp": "2026-10-07T17:01:25.548Z"
+    },
+    {
+      "_id": "act_1",
+      "userId": "usr_rahul",
+      "userName": "Rahul Kumar",
+      "userAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "action": "moved task",
+      "targetType": "task",
+      "targetId": "tsk_102",
+      "details": "Moved \"Architect Gemini AI Workflow Insight Pipeline\" to In Review",
+      "timestamp": "2026-10-07T09:30:00.000Z"
+    },
+    {
+      "_id": "act_2",
+      "userId": "usr_priya",
+      "userName": "Priya Nair",
+      "userAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "action": "completed task",
+      "targetType": "task",
+      "targetId": "tsk_103",
+      "details": "Completed \"Design Accessible Token System for Dark & Light Themes\"",
+      "timestamp": "2026-10-06T16:00:00.000Z"
+    },
+    {
+      "_id": "act_3",
+      "userId": "usr_arjun",
+      "userName": "Arjun Mehta",
+      "userAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+      "action": "completed task",
+      "targetType": "task",
+      "targetId": "tsk_108",
+      "details": "Completed \"Optimize Database Indexing for Real-Time Query Workload\"",
+      "timestamp": "2026-10-05T18:00:00.000Z"
+    },
+    {
+      "_id": "act_4",
+      "userId": "usr_ananya",
+      "userName": "Ananya Sharma",
+      "userAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "action": "created task",
+      "targetType": "task",
+      "targetId": "tsk_102",
+      "details": "Created \"Architect Gemini AI Workflow Insight Pipeline\"",
+      "timestamp": "2026-10-04T09:00:00.000Z"
+    },
+    {
+      "_id": "act_5",
+      "userId": "usr_sneha",
+      "userName": "Sneha Rao",
+      "userAvatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop&q=80",
+      "action": "created project",
+      "targetType": "project",
+      "targetId": "prj_workforce",
+      "details": "Created project \"Workforce Onboarding Portal\"",
+      "timestamp": "2026-09-22T10:00:00.000Z"
+    }
+  ],
+  "insights": [
+    {
+      "_id": "ins_1",
+      "title": "Engineering Workload Bottleneck on High-Priority Tasks",
+      "category": "WORKLOAD",
+      "summary": "Rahul Kumar is currently carrying 3 high/urgent priority tasks with tight deadlines. Actual time spent on payment tasks has exceeded initial estimates by 28%, introducing risk to the Global Payment Gateway milestone.",
+      "confidence": 93,
+      "recommendedActions": [
+        {
+          "id": "rec_1",
+          "title": "Redistribute \"Stripe Multi-Currency Settlement\" to Vikram Patel or Arjun Mehta",
+          "actionType": "redistribute",
+          "targetTaskId": "tsk_106",
+          "targetUserId": "usr_rahul",
+          "targetNewUserId": "usr_arjun",
+          "applied": false
+        },
+        {
+          "id": "rec_2",
+          "title": "Extend \"Fix Payment Webhook Concurrency\" deadline by 2 days",
+          "actionType": "extend_deadline",
+          "targetTaskId": "tsk_101",
+          "newDeadline": "2026-10-10",
+          "applied": false
+        },
+        {
+          "id": "rec_3",
+          "title": "Reprioritize \"Refactor Auth Token Refresh\" to LOW priority",
+          "actionType": "reprioritize",
+          "targetTaskId": "tsk_110",
+          "applied": false
+        }
+      ],
+      "dismissed": false,
+      "createdAt": "2026-10-07T08:00:00.000Z"
+    },
+    {
+      "_id": "ins_2",
+      "title": "Design System Team Velocity Operating at Peak Efficiency",
+      "category": "PRODUCTIVITY",
+      "summary": "Design tasks under Priya Nair have a 94% on-time completion rate with zero overdue items over the last 14 days. Workload balance index is currently 88/100.",
+      "confidence": 96,
+      "recommendedActions": [
+        {
+          "id": "rec_4",
+          "title": "Advance Phase 2 token migration timeline ahead of schedule",
+          "actionType": "workflow_review",
+          "applied": false
+        }
+      ],
+      "dismissed": false,
+      "createdAt": "2026-10-06T09:00:00.000Z"
+    }
+  ],
+  "organization": {
+    "_id": "org_demo",
+    "name": "TechNova Solutions (Demo Workspace)",
+    "industry": "Software / Technology",
+    "companySize": "11–50",
+    "department": "Engineering",
+    "ownerId": "usr_ananya",
+    "isDemo": true,
+    "onboardingCompleted": true,
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-10-07T17:00:56.599Z"
+  },
+  "organizations": [
+    {
+      "_id": "org_demo",
+      "name": "TechNova Solutions (Demo Workspace)",
+      "industry": "Software / Technology",
+      "companySize": "11–50",
+      "department": "Engineering",
+      "ownerId": "usr_ananya",
+      "isDemo": true,
+      "onboardingCompleted": true,
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-10-28T15:49:15.052Z"
+    },
+    {
+      "name": "NewCo Inc",
+      "industry": "Software / Technology",
+      "companySize": "11–50",
+      "department": "Engineering",
+      "ownerId": "usr_muycu089iwqi",
+      "isDemo": false,
+      "onboardingCompleted": false,
+      "_id": "org_muycu06k8vd6",
+      "createdAt": "2026-10-07T17:01:25.484Z",
+      "updatedAt": "2026-10-07T17:01:25.547Z"
+    },
+    {
+      "name": "ghv",
+      "industry": "Software / Technology",
+      "companySize": "11–50",
+      "department": "Engineering",
+      "ownerId": "usr_mvqp8pr29udo",
+      "isDemo": false,
+      "onboardingCompleted": true,
+      "_id": "org_mvqp8povo8sc",
+      "createdAt": "2026-10-27T13:06:20.047Z",
+      "updatedAt": "2026-10-27T15:29:32.980Z"
+    },
+    {
+      "name": "ghv",
+      "industry": "Software / Technology",
+      "companySize": "11–50",
+      "department": "Engineering",
+      "ownerId": "usr_mvqv3ww90jlx",
+      "isDemo": false,
+      "onboardingCompleted": true,
+      "_id": "org_mvqv3wub8u1m",
+      "createdAt": "2026-10-27T15:50:33.731Z",
+      "updatedAt": "2026-10-27T16:46:32.735Z"
+    },
+    {
+      "name": "ghv",
+      "industry": "Software / Technology",
+      "companySize": "11–50",
+      "department": "Engineering",
+      "ownerId": "usr_mvqx5fhathnd",
+      "isDemo": false,
+      "onboardingCompleted": true,
+      "_id": "org_mvqx5ff4jkig",
+      "createdAt": "2026-10-27T16:47:43.696Z",
+      "updatedAt": "2026-10-27T16:48:22.908Z"
+    },
+    {
+      "name": "dqeqw",
+      "industry": "Software / Technology",
+      "companySize": "11–50",
+      "department": "Engineering",
+      "ownerId": "usr_mvsbs03g6un6",
+      "isDemo": false,
+      "onboardingCompleted": true,
+      "_id": "org_mvsbs01fnngq",
+      "createdAt": "2026-10-28T16:24:57.651Z",
+      "updatedAt": "2026-10-28T16:41:02.883Z"
+    }
+  ],
+  "invitations": [
+    {
+      "organizationId": "org_mvqx5ff4jkig",
+      "name": "mnn",
+      "email": "kjj@gmail.com",
+      "role": "employee",
+      "department": "Engineering",
+      "status": "pending",
+      "token": "inv_mvsajqu20w8z9f",
+      "invitedBy": "usr_mvqx5fhathnd",
+      "expiresAt": "2026-11-04T15:50:32.871Z",
+      "_id": "inv_mvsajquhu0j0",
+      "createdAt": "2026-10-28T15:50:32.873Z",
+      "updatedAt": "2026-10-28T15:50:32.873Z"
+    },
+    {
+      "organizationId": "org_demo",
+      "name": "Test Engineer",
+      "email": "test-worker-1793118614462@example.com",
+      "role": "employee",
+      "department": "Engineering",
+      "status": "pending",
+      "token": "inv_mvqwixvvx0j9sk",
+      "invitedBy": "usr_ananya",
+      "expiresAt": "2026-11-03T16:30:14.540Z",
+      "_id": "inv_mvqwixvwalgq",
+      "createdAt": "2026-10-27T16:30:14.540Z",
+      "updatedAt": "2026-10-27T16:30:14.540Z"
+    }
+  ],
+  "comments": []
+}

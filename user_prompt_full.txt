@@ -1,0 +1,173 @@
+<USER_REQUEST>
+# PHASE 2: Complete End-to-End Testing and Bug Fixing for AI Employee Workflow
+
+Act as a senior QA automation engineer and full-stack debugging specialist.
+
+The existing AI-Powered Employee Workflow Management System has Owner/Admin, Manager, Team Lead, and Employee portals. The previous phase focused on role switching, dashboard navigation, and employee invitations.
+
+Now, thoroughly test the entire application and make every implemented feature work correctly from the frontend through the backend and database.
+
+## 1. Test all four portals
+
+Logically verify each role's authentication, dashboard, navigation, permissions, and available actions.
+
+For each portal:
+- Verify the dashboard loads without errors.
+- Verify all sidebar links open the correct pages.
+- Verify buttons and forms respond correctly.
+- Verify data reflects the authenticated user's authorized organization and role.
+- Verify refresh, logout, and login behavior.
+- Verify unauthorized pages and API requests are blocked.
+- Verify loading indicators never remain stuck indefinitely.
+
+Do not assume that hiding a button is sufficient authorization.
+
+## 2. Test complete business workflows
+
+Test these workflows in sequence, not as isolated UI screens.
+
+**Employee onboarding**
+1. Owner invites an employee.
+2. The invitation is persisted.
+3. The employee accepts a valid invitation.
+4. The employee completes authentication.
+5. The employee reaches the correct dashboard.
+6. The owner sees the updated membership status.
+
+**Task lifecycle**
+1. Create a task.
+2. Assign it to an authorized employee.
+3. Edit its details and deadline.
+4. Update its status.
+5. Add a comment if supported.
+6. Complete and reopen the task.
+7. Verify dashboard statistics and activity history update.
+8. Refresh the application and verify persistence.
+
+**Project lifecycle**
+1. Create a project.
+2. Add authorized members.
+3. Create and associate tasks.
+4. Update milestones and task statuses.
+5. Verify project progress and risk indicators.
+6. Verify project permissions for each role.
+
+**Role changes**
+1. Change a member's role using an authorized account.
+2. Verify the database update.
+3. Verify permissions reflect the new role.
+4. Verify the member cannot retain unauthorized access through stale sessions or cached frontend state.
+5. Verify the current user is not unexpectedly logged out or redirected incorrectly.
+
+## 3. Test all AI features
+
+Test AI Insights, AI Workload, AI Chat, Daily Planner, Meeting Notes, and AI Daily Brief.
+
+For every feature:
+- Verify the frontend calls the correct backend endpoint.
+- Verify inputs are validated.
+- Verify the AI uses real, authorized application data.
+- Verify responses are displayed correctly.
+- Verify errors, timeouts, and missing API credentials are handled gracefully.
+- Verify AI-generated recommendations do not modify records without required confirmation.
+- Verify unsupported or unavailable information is not invented.
+- Verify repeated requests do not create duplicate tasks or actions.
+
+Test with an empty organization, a normal organization, overdue tasks, blocked projects, and insufficient data.
+
+## 4. Test notifications and analytics
+
+Verify:
+- Notifications appear for the configured events.
+- Read/unread status persists.
+- Unread counts are accurate.
+- Duplicate notifications are prevented.
+- Dashboard statistics match database records.
+- Date filters produce correct results.
+- Project progress calculations are consistent.
+- CSV exports contain the expected authorized records.
+- Empty data produces meaningful empty states rather than errors.
+
+## 5. Test failure scenarios
+
+Simulate or test:
+- Backend server unavailable.
+- Database connection failure.
+- Expired authentication token.
+- Invalid form inputs.
+- Duplicate invitations.
+- Unauthorized API requests.
+- Missing AI API key.
+- AI provider timeout.
+- Network interruption during a save.
+- Double-clicking a submission button.
+- Refreshing while data is loading.
+- Accessing a nonexistent route.
+
+The UI must display a useful error, preserve recoverable form input where appropriate, and allow users to retry safely.
+
+Never report a failed operation as successful.
+
+## 6. Automated testing
+
+Inspect the existing test framework and add appropriate tests.
+
+Use:
+- Unit tests for business logic and calculations.
+- API integration tests for authentication, permissions, and persistence.
+- Browser-based end-to-end tests for critical workflows.
+- TypeScript checks and production builds.
+
+Test all four roles with separate test identities and realistic test records.
+
+Use an isolated test database. Never reset or overwrite production data during testing.
+
+## 7. Fix bugs rather than merely documenting them
+
+When a test fails:
+1. Identify the root cause.
+2. Fix the underlying implementation.
+3. Add a regression test.
+4. Rerun the failed test.
+5. Rerun related tests to detect regressions.
+
+Do not remove failing tests, weaken authorization checks, or replace backend functionality with mock responses just to make tests pass.
+
+Do not claim that a browser workflow passed if it was not actually executed.
+
+## 8. Final acceptance report
+
+Provide a table with:
+- Feature or workflow.
+- Test performed.
+- Result: Passed, Failed, or Blocked.
+- Bug found.
+- Fix implemented.
+- Remaining issue.
+
+Also report:
+- Production build result.
+- TypeScript check result.
+- Automated test results.
+- Portal-specific test results.
+- Required environment variables.
+- Any manual tests or external integrations still outstanding.
+
+**Completion requirement:** All critical workflows must pass, every implemented control must work as intended, data must persist correctly, and all role and organization boundaries must be enforced. Continue fixing defects until these acceptance criteria are met or clearly document genuine external blockers.
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-10-28T20:46:02+05:30.
+
+The user's current state is as follows:
+Active Document: c:\Users\gagana B M\Desktop\chethan_project\server\routes\auth.ts (LANGUAGE_TYPESCRIPT)
+Cursor is on line: 1
+Other open documents:
+- c:\Users\gagana B M\Desktop\chethan_project\server\services\gemini.ts (LANGUAGE_TYPESCRIPT)
+- c:\Users\gagana B M\Desktop\chethan_project\src\components\ai\DailyBriefBanner.tsx (LANGUAGE_TSX)
+- c:\Users\gagana B M\Desktop\chethan_project\server\routes\auth.ts (LANGUAGE_TYPESCRIPT)
+- c:\Users\gagana B M\Desktop\chethan_project\src\components\layout\TopBar.tsx (LANGUAGE_TSX)
+- c:\Users\gagana B M\Desktop\chethan_project\server\middleware\rateLimiter.ts (LANGUAGE_TYPESCRIPT)
+</ADDITIONAL_METADATA>
+<USER_SETTINGS_CHANGE>
+The user changed setting `Model Selection` from None to Gemini 3.8 Flash (Medium). No need to comment on this change if the user doesn't ask about it. If reporting what model you are, please use a human readable name instead of the exact string.
+</USER_SETTINGS_CHANGE>
